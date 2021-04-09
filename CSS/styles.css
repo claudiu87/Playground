@@ -319,7 +319,7 @@ border-radius: 10px;
 
 
 /* *********************************media********************************* */
-@media (max-width: 900px) {
+@media (max-width: 1028px) {
 
   p{
     font-size: 1.4rem;
