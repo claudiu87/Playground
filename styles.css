@@ -73,20 +73,36 @@ border-radius: 10px;
 .contact-me{
   position: absolute;
   left: 0;
-  top: 550px;
+  top: 500px;
 }
 .fab{
  color: #505050;
+ position: fixed;
+ font-size: 4rem;
 
 }
 
 .fab:hover{
  color: black;
+ font-size: 6rem;
+
+}
+
+.end{
+
+  height: 20vw;
 }
 
 /* **************************** Bottom (clouds) ************************************/
 .bottom-container {
   display: flex;
+  /* position: fixed; */
+}
+
+.bottom{
+position: fixed;
+bottom : 0;
+
 }
 
 .cloud {
@@ -319,7 +335,7 @@ border-radius: 10px;
 
 
 /* *********************************media********************************* */
-@media (max-width: 900px) {
+@media (max-width: 1028px) {
 
   p{
     font-size: 1.4rem;
@@ -341,5 +357,9 @@ border-radius: 10px;
 
     border-width: 1.4vw;
   }
+
+.Skills-container{
+  flex-direction: column;
+}
 
 }
