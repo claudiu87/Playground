@@ -73,13 +73,14 @@ hr {
 .contact-me {
   position: absolute;
   left: 0;
-  top: 500px;
+  top: 400px;
 }
 
 .contact-me-1{
 display:block;
 height:100px;
 width:100px;
+margin: 0 0 20px 3px;
 
 }
 
