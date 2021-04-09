@@ -1,365 +1,142 @@
-/* **************************** body ************************************************* */
-body {
-  margin: 0;
-  background-color: white;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-}
+<head>
+  <meta charset="utf-8">
+  <title>My website</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/8aad7474de.js" crossorigin="anonymous"></script>
+</head>
 
-h1 {
-  font-size: 300%;
-  font-family: 'Electrolize', sans-serif;
-  color: #505050;
-  text-align: center;
-  margin-top: 50px;
-}
+<body>
 
-h2 {
-  font-size: 200%;
-  font-family: 'Electrolize', sans-serif;
-  color: #505050;
-  text-align: center;
-}
+  <div class="info-me">
+    <h1>Hi I'm Claudiu</h1>
+    <div class="profile-img">
+      <img class="img-me" src="img/circle-me.png" alt="ugli photo :))">
+    </div>
+    <p>I'v started learning HTTML(Hypertext Markup Language) and CSS(Cascading Style Sheets) from an online course.<br>This is my first site made by me using only HTTP and CSS.
+    </p>
+  </div>
+  <h1>Skills</h1>
 
-p {
-  font-size: 1.3rem;
-  line-height: 1.7;
-  font-weight: bold;
-  color: #505050;
-  text-align: center;
-}
+  <div class="Skills-container">
 
-hr{
+    <div class="info-container">
+      <h2>Programming</h2>
 
-  border: none;
-  border-bottom: 1px #A8A59C;
-  border-bottom-style: dotted;
-  border-width: 0.4vw;
+    </div>
 
-}
+    <div class="info-container">
+      <h2>Electronics</h2>
 
+    </div>
 
-/* *********************************Top info*************************************** */
-.info-me {
-  width: 80vw;
-  /* background-color: #f3f4ed; */
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+  </div>
 
-.img-me {
-  width: 10vw;
-  height: 10vw;
-}
+  <hr>
 
-/* **************************** Skills, Education, Experience, Hobbies container **/
-
-.Skills-container, .Education-container, .Experience-container, .Hobbies-container{
-  display: flex;
-  /* border: 1px solid; */
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.info-container{
-width: 400px;
-height: 400px;
-border: 1px solid;
-margin: 2vw;
-border-radius: 10px;
-}
-
-.contact-me{
-  position: absolute;
-  left: 0;
-  top: 500px;
-}
-.fab{
- color: #505050;
- position: fixed;
- font-size: 4rem;
-
-}
-
-.fab:hover{
- color: black;
- font-size: 6rem;
-
-}
-
-.end{
-
-  height: 20vw;
-}
-
-/* **************************** Bottom (clouds) ************************************/
-.bottom-container {
-  display: flex;
-  /* position: fixed; */
-}
-
-.bottom{
-position: fixed;
-bottom : 0;
-
-}
-
-.cloud {
-  width: 25vw;
-  height: 10vw;
-  position: relative;
-  overflow: hidden;
-  margin: auto;
-}
-
-.cloud-part-1 {
-  width: 4vw;
-  height: 4vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -2.5vw;
-  left: 1vw;
-  z-index: 1;
-}
-
-.cloud-part-2 {
-  width: 7vw;
-  height: 7vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -4vw;
-  left: 4vw;
-  z-index: 1;
-}
-
-.cloud-part-3 {
-  width: 11vw;
-  height: 11vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -6vw;
-  left: 8vw;
-}
-
-.cloud-part-4 {
-  width: 7vw;
-  height: 7vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -4vw;
-  left: 16vw;
-}
-
-.cloud-center {
-  width: 25vw;
-  height: 10vw;
-  position: relative;
-  overflow: hidden;
-  margin-left: 1vw;
-}
-
-.cloud-center-part-2 {
-  width: 7vw;
-  height: 7vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -4vw;
-  left: 4vw;
-}
-
-.cloud-center-part-3 {
-  width: 11vw;
-  height: 11vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -6vw;
-  left: 8vw;
-}
-
-.cloud-center-part-4 {
-  width: 6vw;
-  height: 6vw;
-  background-color: #9ddfd3;
-  border-radius: 100%;
-  position: absolute;
-  bottom: -4vw;
-  left: 16vw;
-}
-
-/* **************************** Bottom (sun) ************************************ */
-.sun {
-  width: 8vw;
-  height: 8vw;
-  border-radius: 100%;
-  background-color: #f58634;
-  position: relative;
-  margin-top: 5vw;
-  margin-left: 1vw;
-}
-
-.sun-spot-1 {
-  width: 1vw;
-  height: 1vw;
-  border-radius: 100%;
-  background-color: #ffb037;
-  position: absolute;
-  bottom: 2vw;
-  left: 2vw;
-  z-index: 1;
-}
-
-.sun-spot-2 {
-  width: 1.5vw;
-  height: 1.5vw;
-  border-radius: 100%;
-  background-color: #ffb037;
-  position: absolute;
-  bottom: 4vw;
-  left: 1vw;
-  z-index: 1;
-}
-
-.sun-ray-1 {
-  width: 0.5vw;
-  height: 10vw;
-  transform: rotate(125deg);
-  border-radius: 5px 5px 5px 5px;
-  position: absolute;
-  top: -1vw;
-  left: 3.7vw;
-  background-color: #f58634;
-}
-
-.sun-ray-2 {
-  width: 0.5vw;
-  height: 10vw;
-  transform: rotate(-125deg);
-  border-radius: 5px 5px 5px 5px;
-  position: absolute;
-  left: 3.7vw;
-  bottom: -1vw;
-  background-color: #f58634;
-}
-
-.sun-ray-3 {
-  width: 0.5vw;
-  height: 9vw;
-  transform: rotate(0deg);
-  border-radius: 5px 5px 5px 5px;
-  position: absolute;
-  bottom: -0.5vw;
-  right: 3.8vw;
-  background-color: #f58634;
-}
-
-.sun-ray-4 {
-  width: 0.5vw;
-  height: 9vw;
-  transform: rotate(90deg);
-  border-radius: 5px 5px 5px 5px;
-  position: absolute;
-  bottom: -0.5vw;
-  right: 3.8vw;
-  background-color: #f58634;
-}
-
-.sun-ray-5 {
-  width: 0.5vw;
-  height: 10vw;
-  transform: rotate(155deg);
-  border-radius: 5px 5px 5px 5px;
-  position: absolute;
-  bottom: -0.8vw;
-  right: 3.7vw;
-  background-color: #f58634;
-}
-
-.sun-ray-6 {
-  width: 0.5vw;
-  height: 10vw;
-  transform: rotate(-155deg);
-  border-radius: 5px 5px 5px 5px;
-  position: absolute;
-  bottom: -0.8vw;
-  right: 3.7vw;
-  background-color: #f58634;
-}
-
-/* **************************** Bottom (mountains) ************************************ */
-.top-mountains {
-  margin-top: 7vw;
-  border: none;
-  width: 100vw;
-  position: relative;
-}
-
-.top-m1 {
-  width: 0;
-  height: 0;
-  border-left: 8vw solid transparent;
-  border-right: 8vw solid transparent;
-  border-bottom: 17vw solid #A8A59C;
-  /* #A8A59C */
-  position: absolute;
-  bottom: 0;
-}
-
-.top-m2 {
-  width: 0;
-  height: 0;
-  border-left: 4vw solid transparent;
-  border-right: 4vw solid transparent;
-  border-bottom: 8vw solid #A8A59C;
-  /* #1AB38 */
-  position: absolute;
-  bottom: 0;
-  left: 11vw;
-}
-
-.snow-m1 {
-  width: 0;
-  height: 0;
-  border-left: 1vw solid transparent;
-  border-right: 1vw solid transparent;
-  border-bottom: 2vw solid #D3D3D3;
-  position: absolute;
-  left: -1vw;
-}
+  <h1>Education</h1>
+  <div class="Education-container">
+    <div class="info-container">
 
 
-/* *********************************media********************************* */
-@media (max-width: 1028px) {
+    </div>
 
-  p{
-    font-size: 1.4rem;
-  }
+  </div>
 
-  h1{
-    font-size: 3.5rem;
-  }
+    <hr>
+  <h1>Experience</h1>
+  <div class="Experience-container">
+    <div class="info-container">
 
-  h2{
-    font-size: 2rem;
-  }
-  .img-me {
-    width: 25vw;
-    height: 25vw;
-  }
 
-  hr{
+    </div>
 
-    border-width: 1.4vw;
-  }
+  </div>
 
-.Skills-container{
-  flex-direction: column;
-}
+  <hr>
 
-}
+  <h1>Hobbies</h1>
+  <div class="Hobbies-container">
+    <div class="info-container">
+
+
+    </div>
+
+  </div>
+
+<div class="end">
+
+</div>
+
+  <div class="contact-me">
+    <i class="fab fa-facebook-square fa-3x"></i>
+
+  </div>
+
+<div class="bottom">
+
+
+  <div class="bottom-container">
+
+
+    <div class="cloud">
+
+      <div class="cloud-part-1"> </div>
+      <div class="cloud-part-2"> </div>
+      <div class="cloud-part-3"> </div>
+      <div class="cloud-part-4"> </div>
+
+    </div>
+
+    <div class="cloud-center">
+
+      <div class="cloud-center-part-2"> </div>
+      <div class="cloud-center-part-3"> </div>
+      <div class="cloud-center-part-4"> </div>
+
+    </div>
+
+    <div class="sun">
+      <div class="sun-spot-1"></div>
+      <div class="sun-spot-2"></div>
+      <div class="sun-ray-1"></div>
+      <div class="sun-ray-2"></div>
+      <div class="sun-ray-3"></div>
+      <div class="sun-ray-4"></div>
+      <div class="sun-ray-5"></div>
+      <div class="sun-ray-6"></div>
+    </div>
+
+
+    <div class="cloud">
+
+      <div class="cloud-part-1"> </div>
+      <div class="cloud-part-2"> </div>
+      <div class="cloud-part-3"> </div>
+      <div class="cloud-part-4"> </div>
+
+    </div>
+
+  </div>
+
+  <div class="top-mountains">
+
+    <div class="top-m1">
+      <div class="snow-m1">
+
+      </div>
+
+    </div>
+    <div class="top-m2"></div>
+
+  </div>
+
+  </div>
+
+</body>
+
+</html>
