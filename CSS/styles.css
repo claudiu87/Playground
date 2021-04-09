@@ -33,7 +33,7 @@ hr {
   border-bottom: 1px #A8A59C;
   border-bottom-style: dotted;
   border-width: 0.7vw;
-  width: 5vw;
+  width: 7vw;
 }
 
 /* *********************************Top info*************************************** */
@@ -76,10 +76,18 @@ hr {
   top: 500px;
 }
 
+.contact-me-1{
+display:block;
+height:100px;
+width:100px;
+
+}
+
 .fab {
   color: #505050;
   position: fixed;
   font-size: 7rem;
+
 }
 
 .fab:hover {
