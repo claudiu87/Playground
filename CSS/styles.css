@@ -1,0 +1,449 @@
+/* **************************** body ************************************ */
+body {
+  margin: 0;
+  background-color: #f3f4ed;
+}
+
+h1 {
+  font-size: 300%;
+  font-family: 'Electrolize', sans-serif;
+  color: #387c6d;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 200%;
+  font-family: 'Electrolize', sans-serif;
+  color: #387c6d;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-weight: bold;
+  color: #505050;
+  text-align: center;
+  /*  color: #9A795F;*/
+}
+
+hr{
+
+  border: none;
+  border-bottom: 1px #A8A59C;
+  border-bottom-style: dotted;
+  border-width: 0.3vw;
+
+
+}
+
+/* **************************** Top (clouds) ************************************ */
+.top {
+  display: flex;
+  /* border: 1px solid; */
+  background-color: #f3f4ed;
+}
+
+.cloud {
+  width: 25vw;
+  height: 10vw;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.cloud-part-1 {
+  width: 4vw;
+  height: 4vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -2.5vw;
+  left: 1vw;
+  z-index: 1;
+}
+
+.cloud-part-2 {
+  width: 7vw;
+  height: 7vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -4vw;
+  left: 4vw;
+  z-index: 1;
+}
+
+.cloud-part-3 {
+  width: 11vw;
+  height: 11vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -6vw;
+  left: 8vw;
+}
+
+.cloud-part-4 {
+  width: 7vw;
+  height: 7vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -4vw;
+  left: 16vw;
+}
+
+.cloud-center {
+  width: 25vw;
+  height: 10vw;
+  position: relative;
+  overflow: hidden;
+  margin-left: 1vw;
+}
+
+.cloud-center-part-2 {
+  width: 7vw;
+  height: 7vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -4vw;
+  left: 4vw;
+}
+
+.cloud-center-part-3 {
+  width: 11vw;
+  height: 11vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -6vw;
+  left: 8vw;
+}
+
+.cloud-center-part-4 {
+  width: 6vw;
+  height: 6vw;
+  background-color: #9ddfd3;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -4vw;
+  left: 16vw;
+}
+
+/* **************************** Top (sun) ************************************ */
+.sun {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 100%;
+  background-color: #f58634;
+  position: relative;
+  margin-top: 5vw;
+  margin-left: 1vw;
+}
+
+.sun-spot-1 {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 100%;
+  background-color: #ffb037;
+  position: absolute;
+  bottom: 2vw;
+  left: 2vw;
+  z-index: 1;
+}
+
+.sun-spot-2 {
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 100%;
+  background-color: #ffb037;
+  position: absolute;
+  bottom: 4vw;
+  left: 1vw;
+  z-index: 1;
+}
+
+.sun-ray-1 {
+  width: 0.5vw;
+  height: 10vw;
+  transform: rotate(125deg);
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  top: -1vw;
+  left: 3.7vw;
+  background-color: #f58634;
+}
+
+.sun-ray-2 {
+  width: 0.5vw;
+  height: 10vw;
+  transform: rotate(-125deg);
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  left: 3.7vw;
+  bottom: -1vw;
+  background-color: #f58634;
+}
+
+.sun-ray-3 {
+  width: 0.5vw;
+  height: 9vw;
+  transform: rotate(0deg);
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  bottom: -0.5vw;
+  right: 3.8vw;
+  background-color: #f58634;
+}
+
+.sun-ray-4 {
+  width: 0.5vw;
+  height: 9vw;
+  transform: rotate(90deg);
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  bottom: -0.5vw;
+  right: 3.8vw;
+  background-color: #f58634;
+}
+
+.sun-ray-5 {
+  width: 0.5vw;
+  height: 10vw;
+  transform: rotate(155deg);
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  bottom: -0.8vw;
+  right: 3.7vw;
+  background-color: #f58634;
+}
+
+.sun-ray-6 {
+  width: 0.5vw;
+  height: 10vw;
+  transform: rotate(-155deg);
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  bottom: -0.8vw;
+  right: 3.7vw;
+  background-color: #f58634;
+}
+
+/* **************************** Top (mountains) ************************************ */
+.top-mountains {
+  margin-top: 7vw;
+  border: none;
+  border-bottom: 1px #A8A59C;
+  border-bottom-style: dotted;
+  border-width: 0.3vw;
+  width: 100vw;
+  position: relative;
+}
+
+.top-m1 {
+  width: 0;
+  height: 0;
+  border-left: 8vw solid transparent;
+  border-right: 8vw solid transparent;
+  border-bottom: 17vw solid #A8A59C;
+  /* #A8A59C */
+  position: absolute;
+  bottom: 0;
+}
+
+.top-m2 {
+  width: 0;
+  height: 0;
+  border-left: 4vw solid transparent;
+  border-right: 4vw solid transparent;
+  border-bottom: 8vw solid #A8A59C;
+  /* #1AB38 */
+  position: absolute;
+  bottom: 0;
+  left: 11vw;
+}
+
+.snow-m1 {
+  width: 0;
+  height: 0;
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+  border-bottom: 2vw solid #D3D3D3;
+  position: absolute;
+  left: -1vw;
+}
+
+/* *********************************info********************************* */
+.info-me {
+  width: 80vw;
+  background-color: #f3f4ed;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img-me {
+  width: 10vw;
+  height: 10vw;
+}
+
+.info-container {
+  display: flex;
+  background-color: grey;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.item1 {
+  width: 25vw;
+  /* height: 400px; */
+  background-color: #f3f4ed;
+  /* border: 1px solid; */
+}
+
+.item2 {
+  width: 25vw;
+  /* height: 400px; */
+  background-color: #f3f4ed;
+  /* border: 1px solid; */
+}
+
+
+.info-content {
+  /* border: 1px solid; */
+  display: grid;
+  grid-template-columns: 18vw 7vw;
+}
+
+.er p {
+  line-height: 0;
+  text-align: left;
+  padding-left: 1vw;
+}
+
+
+/* *********************************middle(Experience)**********************************/
+.middle-container {
+  /* border: 1px solid; */
+  width: 40vw;
+  margin: auto;
+  padding-left: 15vw;
+
+}
+
+.Experience {
+  display: grid;
+  grid-template-columns: 15vw 25vw;
+}
+
+.ex p{
+text-align: left;
+line-height: 0;
+}
+
+/* .ex{
+  border: 1px solid;
+} */
+/* *********************************middle(Hobbies)**********************************/
+
+.Hobbies-container{
+  width: 51vw;
+  margin:auto;
+  /* border: 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hobby-img{
+/* width: 24vw; */
+width: 433.7px;
+height: 244px;
+
+}
+
+.Hobbies-container p{
+  line-height: 0;
+}
+
+.header-bobbies{
+  border: 1px dotted #A8A59C;
+  width: auto;
+  height: auto;
+}
+
+/* *********************************bottom*******************************************/
+.bottom-container {
+  width: 100vw;
+  height: 10vw;
+  border: 1px solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.hill {
+  width: 100vw;
+  height: 100vw;
+  border-radius: 100%;
+  background-color: green;
+  position: absolute;
+  bottom: -93vw;
+  left: -35vw;
+  ;
+}
+
+/* *********************************media********************************* */
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .er p {
+    text-align: center;
+  }
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .item1, .item2 {
+    width: 50vw;
+  }
+
+  .img-me {
+    width: 17vw;
+    height: 17vw;
+  }
+
+  .info-content {
+    grid-template-columns: 30vw 20vw;
+  }
+
+  .middle-container{
+    width: 60vw;
+    padding-left: 0;
+  }
+  .Experience {
+  grid-template-columns: 25vw 35vw;
+  }
+
+  .ex p{
+  text-align: center;
+  }
+
+.Hobbies-container{
+  flex-direction: column;
+}
+
+}
