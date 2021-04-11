@@ -1,8 +1,11 @@
 /* **************************** body ************************************************* */
 body {
   margin: 0;
-  background-color: white;
+  background-color: #d7fbe8;
+  /* background-color: white; */
+
 }
+
 
 h1 {
   font-size: 300%;
@@ -73,27 +76,27 @@ hr {
 .contact-me {
   position: absolute;
   left: 0;
-  top: 400px;
+  top: 300px;
 }
 
 .contact-me-1{
 display:block;
-height:100px;
-width:100px;
-margin: 0 0 20px 3px;
+height:50px;
+width:50px;
+margin: 0 0 15px 3px;
 
 }
 
 .fab {
   color: #505050;
   position: fixed;
-  font-size: 7rem;
+  font-size: 4rem;
 
 }
 
 .fab:hover {
   color: black;
-  font-size: 8rem;
+  font-size: 5rem;
 }
 
 .end {
@@ -111,12 +114,6 @@ margin: 0 0 20px 3px;
   /* border: 1px solid; */
 }
 
-
-.hobby-img{
-width:40%
-
-
-}
 
 /* **************************** Bottom (clouds) ************************************/
 .bottom-container {
@@ -391,5 +388,29 @@ width:40%
     width: 70vw;
 
   }
+
+  .fab {
+    color: #505050;
+    position: fixed;
+    font-size: 7rem;
+
+  }
+
+  .fab:hover {
+    color: black;
+    font-size: 8rem;
+  }
+
+  .contact-me-1{
+  display:block;
+  height:100px;
+  width:100px;
+  margin: 0 0 20px 3px;
+}
+.contact-me {
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
 
 }
