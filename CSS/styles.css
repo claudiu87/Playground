@@ -1,9 +1,11 @@
 /* **************************** body ************************************************* */
 body {
   margin: 0;
-  background-color: #f6f6f6;
+  /* background-color: #d7fbe8; */
   /* background-color: white; */
- 
+  /* background-color: #f6f6f6; */
+  background: rgb(253,252,255);
+  background: linear-gradient(180deg, rgba(253,252,255,1) 24%, rgba(227,253,253,1) 100%);
 
 }
 
