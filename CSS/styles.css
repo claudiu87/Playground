@@ -43,6 +43,33 @@ hr {
   width: 7vw;
 }
 
+ul{
+  list-style-type: none;
+
+}
+
+li{
+  display: inline;
+  margin: 1vw;
+
+}
+
+.nav{
+    text-align: right;
+    height: 2vw;
+}
+
+a{
+text-decoration: none;
+color: #505050;
+font-size: 130%;
+font-weight: bold;
+
+}
+
+a:hover{
+  color: black;
+}
 /* *********************************Top info*************************************** */
 .info-me {
   width: 80vw;
