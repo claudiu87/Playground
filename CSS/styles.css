@@ -57,6 +57,7 @@ li{
 .nav{
     text-align: right;
     height: 2vw;
+    margin-bottom: 7vw;
 }
 
 a{
@@ -101,7 +102,7 @@ a:hover{
   /* height: 400px; */
   border: 1px solid;
   margin: 2vw;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .contact-me {
@@ -450,7 +451,7 @@ margin: 0 0 15px 3px;
 
 a{
 font-size: 200%;
-margin: 3vw;
+margin: 2.5vw;
 
 }
 
