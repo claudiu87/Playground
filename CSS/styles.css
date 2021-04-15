@@ -1,13 +1,25 @@
 /* **************************** body ************************************************* */
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   /* background-color: #d7fbe8; */
   /* background-color: white; */
   /* background-color: #f6f6f6; */
-   background: rgb(253,252,255);
-  background: linear-gradient(180deg, rgba(253,252,255,1) 24%, rgba(227,253,253,1) 100%);
+  background: rgb(253, 252, 255);
+  background: linear-gradient(180deg, rgba(253, 252, 255, 1) 24%, rgba(227, 253, 253, 1) 100%);
   /* background-color: #e3fdfd; */
+}
 
+.background {
+  position: fixed;
+  display: block;
+  background: #D3D3D3;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  clip-path: polygon(100% 0, 71% 0, 100% 100%, 0% 100%);
 }
 
 
@@ -43,34 +55,36 @@ hr {
   width: 7vw;
 }
 
-ul{
+ul {
   list-style-type: none;
-
 }
 
-li{
+li {
   display: inline-block;
   margin: 1vw;
-
 }
 
-.nav{
-    text-align: right;
-    height: 2vw;
-    margin-bottom: 7vw;
+.nav {
+  text-align: right;
+  height: 2vw;
+  margin-bottom: 7vw;
 }
 
-a{
-text-decoration: none;
-color: #505050;
-font-size: 130%;
-font-weight: bold;
-
+.nav-links{
+  margin-top: 0;
 }
 
-a:hover{
+a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+a:hover {
   color: black;
 }
+
 /* *********************************Top info*************************************** */
 .info-me {
   width: 80vw;
@@ -112,19 +126,17 @@ a:hover{
   top: 300px;
 }
 
-.contact-me-1{
-display:block;
-height:50px;
-width:50px;
-margin: 0 0 15px 3px;
-
+.contact-me-1 {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 0 0 15px 3px;
 }
 
 .fab {
   color: #505050;
   position: fixed;
   font-size: 4rem;
-
 }
 
 .fab:hover {
@@ -147,7 +159,6 @@ margin: 0 0 15px 3px;
   /* border: 1px solid; */
 }
 
-
 /* **************************** Bottom (clouds) ************************************/
 .bottom-container {
   display: flex;
@@ -157,7 +168,8 @@ margin: 0 0 15px 3px;
 .bottom {
   position: fixed;
   bottom: 0;
-  background-color: #e3fdfd; opacity: 0.85;
+  background-color: #e3fdfd;
+  opacity: 0.85;
   /* background-color: white; opacity: 0.85; */
 }
 
@@ -369,7 +381,6 @@ margin: 0 0 15px 3px;
   position: absolute;
   bottom: 0;
   clip-path: polygon(42% 15%, 73% 84%, 83% 57%, 100% 100%, 0 100%, 41% 15%);
-
 }
 
 .top-m2 {
@@ -391,7 +402,8 @@ margin: 0 0 15px 3px;
   border-right: 1vw solid transparent;
   border-bottom: 2vw solid #D3D3D3;
   position: absolute;
-  left: -1vw;
+  left: -2.2vw;
+  bottom: -4.5vw;
 }
 
 /* *********************************media********************************* */
@@ -423,14 +435,12 @@ margin: 0 0 15px 3px;
 
   .info-container {
     width: 70vw;
-
   }
 
   .fab {
     color: #505050;
     position: fixed;
     font-size: 7rem;
-
   }
 
   .fab:hover {
@@ -438,22 +448,21 @@ margin: 0 0 15px 3px;
     font-size: 8rem;
   }
 
-  .contact-me-1{
-  display:block;
-  height:100px;
-  width:100px;
-  margin: 0 0 20px 3px;
-}
-.contact-me {
-  position: absolute;
-  left: 0;
-  top: 400px;
-}
+  .contact-me-1 {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0 0 20px 3px;
+  }
 
-a{
-font-size: 200%;
-margin: 2.5vw;
+  .contact-me {
+    position: absolute;
+    left: 0;
+    top: 400px;
+  }
 
-}
-
+  a {
+    font-size: 200%;
+    margin: 2.5vw;
+  }
 }
