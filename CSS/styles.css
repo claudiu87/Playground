@@ -70,7 +70,7 @@ li {
 .nav {
   text-align: right;
   height: 2vw;
-  margin-bottom: 20vw;
+  margin-bottom: 10vw;
 }
 
 .nav-links{
@@ -470,7 +470,7 @@ a:hover {
   }
 
   a {
-    font-size: 300%;
+    font-size: 200%;
     margin: 2.5vw;
   }
 }
