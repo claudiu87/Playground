@@ -36,6 +36,8 @@ h2 {
   font-family: 'Electrolize', sans-serif;
   color: #505050;
   text-align: left;
+  padding-left: 3vw;
+  margin-top: 0.5vw;
 }
 
 p {
@@ -45,6 +47,7 @@ p {
   font-weight: bold;
   color: #505050;
   text-align: left;
+  padding-left: 3vw;
 }
 
 hr {
