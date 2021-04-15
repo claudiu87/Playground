@@ -100,6 +100,10 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.center-text{
+  text-align: center;
+}
+
 /* **************************** Skills, Education, Experience, Hobbies container **/
 .Skills-container, .Education-container, .Experience-container, .Hobbies-container {
   display: flex;
