@@ -35,7 +35,7 @@ h2 {
   font-size: 200%;
   font-family: 'Electrolize', sans-serif;
   color: #505050;
-  text-align: center;
+  text-align: left;
 }
 
 p {
@@ -44,7 +44,7 @@ p {
   margin: 5px;
   font-weight: bold;
   color: #505050;
-  text-align: center;
+  text-align: left;
 }
 
 hr {
