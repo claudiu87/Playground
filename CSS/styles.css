@@ -64,7 +64,6 @@ clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
   list-style-type: none;
   margin: 0;
   padding: 0;
-  min-width: 440px;
 }
 
 .nav-container{
@@ -163,7 +162,7 @@ left: 15px;
 /* **************************media********************************************/
 @media (max-width: 1028px) {
   .nav-li{
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     padding-bottom: 10px;
   }
 }
