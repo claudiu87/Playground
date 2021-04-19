@@ -84,7 +84,6 @@ clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
 
 
 
-
 /* **************************Nav bar******************************************/
 
 .nav-ul{
@@ -105,6 +104,13 @@ clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
   display: inline-block;
   font-size: 1.7rem;
   margin-top: 15px;
+}
+
+
+.nav-li-mobile{
+  font-size: 3rem;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .nav-links{
@@ -137,7 +143,6 @@ opacity: 0;
 z-index: 2;
 
 }
-
 
 
 .menu-line-top, .menu-line-center, .menu-line-bottom{
@@ -174,7 +179,7 @@ transform: none;
 .test{
   position: absolute;
   width: 300px;
-  height: 400px;
+  height: 300px;
   /* border: 1px solid black; */
   background-color: #45526c;
   top:80px;
@@ -300,7 +305,7 @@ margin: 10px;
   flex-direction: column;
   text-align: center;
 }
-ul{
+.nav-container ul{
   visibility: hidden;
 }
 
