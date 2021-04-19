@@ -322,15 +322,15 @@ top: -20px;
 }
 
 .HTML span{
- animation: HTML 1s;
+ animation: HTML 3s;
 }
 
 .CSS span{
- animation: CSS 1s;
+ animation: CSS 3s;
 }
 
 .C span{
- animation: C 1s;
+ animation: C 3s;
 }
 
 @keyframes HTML {
