@@ -1,14 +1,10 @@
 /* **************************Fonts***************************** */
-
 /* font-family: 'Electrolize', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Source Sans Pro', sans-serif; */
-
 /* https://colorhunt.co/palette/273472 */
-
-
 /* **************************text********************************************/
-h1{
+h1 {
   font-size: 5rem;
   font-family: 'Electrolize', sans-serif;
   color: #5aa897;
@@ -16,63 +12,63 @@ h1{
   text-align: center;
 }
 
-p{
+p {
   text-align: center;
   color: #505050;
   font-size: 1.2rem;
 }
 
-.heading{
-  padding: 10% 20% 0 20%;
+.heading {
+  padding: 7% 20% 0 20%;
 }
 
+h2{
+  font-size: 1.5rem;
+  font-family: 'Electrolize', sans-serif;
+  color: #45526c;
+}
 
 /* **************************boddy********************************************/
-
-body{
+body {
   padding: 0;
   margin: 0;
   background-color: #f8f5f1;
 }
 
-.background{
-position: fixed;
-display: flex;
-width: 100vw;
-height: 100vh;
-position: absolute;
-top:0;
-left:0;
-background-color: #f8f5f1;
-z-index: -1;
-opacity: 0.07;
-justify-content: center;
-align-items: center;
+.background {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8f5f1;
+  z-index: -1;
+  opacity: 0.07;
+  justify-content: center;
+  align-items: center;
 }
 
-.mountain-background{
+.mountain-background {
   position: fixed;
-height: 600px;
-width: 600px;
-background-color: grey;
-clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
-
-
+  height: 600px;
+  width: 600px;
+  background-color: grey;
+  clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
 }
 
 /* **************************sections*****************************************/
-
-.top-section-grid{
- position: fixed;
- display: grid;
- grid-template-columns: 50px 50px 100px 50px auto 100px ;
- width: 100vw;
- background-color: #5aa897;
- /* border: 1px solid black; */
-
+.top-section-grid {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 50px 50px 100px 50px auto 100px;
+  width: 100vw;
+  background-color: #5aa897;
+  /* border: 1px solid black; */
 }
 
-.skills, .education, .experience, .hobbies{
+.skills, .education, .experience, .hobbies {
   /* width: 100%; */
   /* height: 100px; */
   /* border: 1px solid black; */
@@ -82,69 +78,62 @@ clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
   align-items: center;
 }
 
-
-
 /* **************************Nav bar******************************************/
-
-.nav-ul{
+.nav-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav-container{
-    text-align:right;
-    background-color: #5aa897;
-    /* border: 1px solid black; */
-    /* height: 70px; */
-
+.nav-container {
+  text-align: right;
+  background-color: #5aa897;
+  /* border: 1px solid black; */
+  /* height: 70px; */
 }
 
-.nav-li{
+.nav-li {
   display: inline-block;
   font-size: 1.7rem;
   margin-top: 15px;
 }
 
-
-.nav-li-mobile{
+.nav-li-mobile {
   font-size: 3rem;
   margin-top: 15px;
   text-align: center;
 }
 
-.nav-links{
-color: white;
-text-decoration: none;
-font-family: 'Noto Serif', serif;
-border-radius: 10px;
-margin: 5px;
-padding: 5px;
-font-weight: 500;
+.nav-links {
+  color: white;
+  text-decoration: none;
+  font-family: 'Noto Serif', serif;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: 500;
 }
 
-.nav-links:hover{
+.nav-links:hover {
   background-color: #45526c;
 }
 
-.menu-button{
+.menu-button {
   background-color: #5aa897;
   position: relative;
-
 }
 
-#menu{
-transform: scale(6.5);
-position: absolute;
-left: 32px;
-bottom: 32px;
-cursor: pointer;
-opacity: 0;
-z-index: 2;
-
+#menu {
+  transform: scale(6.5);
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
 }
 
-.menu-line-top, .menu-line-center, .menu-line-bottom{
+.menu-line-top, .menu-line-center, .menu-line-bottom {
   width: 70px;
   height: 10px;
   background-color: white;
@@ -152,49 +141,42 @@ z-index: 2;
   margin: 12px 0px 10px 2px;
 }
 
-#menu:checked ~.menu-line
-{
+#menu:checked~.menu-line {
   background-color: #45526c;
-
 }
 
-#menu:checked ~.menu-line-bottom{
+#menu:checked~.menu-line-bottom {
   transform: translate(0, -22px);
   transition-duration: 1s;
 }
 
-#menu:checked ~.menu-line-top{
+#menu:checked~.menu-line-top {
   transform: translate(0, 22px);
   transition-duration: 1s;
 }
 
-#menu:checked ~.test{
-background-color: #5aa897;
-transform: none;
+#menu:checked~.test {
+  background-color: #5aa897;
+  transform: none;
 }
 
-
-.test{
+.test {
   position: absolute;
   width: 300px;
   height: 300px;
   /* border: 1px solid black; */
   background-color: #45526c;
-  top:75px;
+  top: 75px;
   left: -200px;
   transform: translate(300px, 0);
   transition-duration: 1s;
   border-radius: 10px;
-
 }
 
-
-
 /* **************************Logo*********************************************/
-
-.logo-tree{
+.logo-tree {
   position: relative;
-  top:0;
+  top: 0;
   left: 0;
   height: 70px;
   width: 50px;
@@ -202,7 +184,7 @@ transform: none;
   /* border: 1px solid black; */
 }
 
-.tree-trunk{
+.tree-trunk {
   position: absolute;
   height: 20px;
   width: 4px;
@@ -211,44 +193,42 @@ transform: none;
   left: 23px;
 }
 
-
-.tree-part1{
-position: absolute;
-border-top: 0 transparent ;
-border-bottom: 25px solid darkgreen;
-border-left:  20px solid transparent ;
-border-right: 20px solid transparent ;
-bottom: 15px;
-left: 5px;
+.tree-part1 {
+  position: absolute;
+  border-top: 0 transparent;
+  border-bottom: 25px solid darkgreen;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: 15px;
+  left: 5px;
 }
 
-.tree-part2{
-position: absolute;
-border-top: 0 transparent ;
-border-bottom: 20px solid green;
-border-left:  15px solid transparent ;
-border-right: 15px solid transparent ;
-bottom: 30px;
-left: 10px;
+.tree-part2 {
+  position: absolute;
+  border-top: 0 transparent;
+  border-bottom: 20px solid green;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 30px;
+  left: 10px;
 }
 
-
-.tree-part3{
-position: absolute;
-border-top: 0 transparent ;
-border-bottom: 15px solid forestgreen;
-border-left:  10px solid transparent ;
-border-right: 10px solid transparent ;
-bottom: 45px;
-left: 15px;
+.tree-part3 {
+  position: absolute;
+  border-top: 0 transparent;
+  border-bottom: 15px solid forestgreen;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: 45px;
+  left: 15px;
 }
 
-.mountain{
+.mountain {
   background-color: #5aa897;
   /* border: 1px solid black; */
 }
 
-.m1{
+.m1 {
   width: 100px;
   height: 70px;
   background-color: white;
@@ -256,9 +236,8 @@ left: 15px;
 }
 
 /* **************************info section**************************************/
-
-.profile-img{
-width: 150px;
+.profile-img {
+  width: 175px;
 }
 
 .info-me {
@@ -268,68 +247,149 @@ width: 150px;
   align-items: center;
 }
 
-.profile-photo, .profile-info{
+.profile-photo, .profile-info {
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.info-additional{
-padding: 0 15%;
-
+.info-additional {
+  padding: 0 15%;
 }
 
 /* **************************Skills*******************************************/
-
-
-.info-container{
-width: 30vw;
-height: 100px;
-border: 1px solid black;
-border-radius: 10px;
-margin: 10px;
-
-
+.info-container {
+  width: 30vw;
+  /* height: 100px; */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: 10px;
 }
+
+.progress {
+  position: relative;
+  width: 95%;
+  height: 10px;
+  margin: 5px 10px 0 0;
+  /* border: 1px solid black; */
+  background-color: #C0C0C0;
+  border-radius: 10px;
+}
+
+.info-container p {
+  text-align: left;
+  line-height: 0;
+}
+
+.progress span {
+  position: absolute;
+  background: #5aa897;
+  width: 0%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.HTML span {
+  width: 80%
+}
+
+.CSS span {
+  width: 60%
+}
+
+.C span {
+  width: 30%
+}
+
+.HTML span::before{
+content: "80%";
+position: absolute;
+right: -20px;
+top: -20px;
+}
+
+.CSS span::before{
+content: "60%";
+position: absolute;
+right: -20px;
+top: -20px;
+}
+
+.C span::before{
+content: "30%";
+position: absolute;
+right: -20px;
+top: -20px;
+}
+
+.HTML span{
+ animation: HTML 1s;
+}
+
+.CSS span{
+ animation: CSS 1s;
+}
+
+.C span{
+ animation: C 1s;
+}
+
+@keyframes HTML {
+  0%   {width:0%;}
+ 100%  {width:80%;}
+}
+
+@keyframes CSS {
+  0%   {width:0%;}
+ 100%  {width:60%;}
+}
+
+@keyframes C {
+  0%   {width:0%;}
+ 100%  {width:30%;}
+}
+
 
 
 /* **************************media********************************************/
 @media (max-width: 1028px) {
+  p {
+    font-size: 1.7rem;
+  }
 
-p{
-  font-size: 2rem;
-}
+  h2{
+    font-size: 2.2rem;
+
+  }
 
   /* .nav-li{
     font-size: 2.6rem;
     padding-bottom: 10px;
   } */
+  .info-me, .profile-info {
+    flex-direction: column;
+    text-align: center;
+  }
 
-  .info-me, .profile-info{
-  flex-direction: column;
-  text-align: center;
-}
-.nav-container ul{
-  visibility: hidden;
-}
+  .nav-container ul {
+    visibility: hidden;
+  }
 
-.skills{
-  flex-direction: column;
-}
+  .skills {
+    flex-direction: column;
+  }
 
-.info-container{
-  width: 80vw;
-}
-
+  .info-container {
+    width: 80vw;
+  }
 }
 
 @media (min-width: 1028px) {
-
-  .menu-line-top, .menu-line-center, .menu-line-bottom{
+  .menu-line-top, .menu-line-center, .menu-line-bottom {
     visibility: hidden;
   }
-  #menu{
+
+  #menu {
     cursor: unset;
     visibility: hidden;
   }
-
 }
