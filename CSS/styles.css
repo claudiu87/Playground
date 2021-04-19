@@ -65,7 +65,7 @@ clip-path: polygon(65% 75%, 59% 74%, 72% 49%, 99% 96%, 0 96%, 42% 9%);
 .top-section-grid{
  position: fixed;
  display: grid;
- grid-template-columns: 50px 50px 100px 50px auto;
+ grid-template-columns: 50px 50px 100px 50px auto 100px ;
  width: 100vw;
  background-color: #5aa897;
  /* border: 1px solid black; */
@@ -119,6 +119,50 @@ font-weight: 500;
 
 .nav-links:hover{
   background-color: #45526c;
+}
+
+.menu-button{
+  background-color: #5aa897;
+  position: relative;
+
+}
+
+#menu{
+transform: scale(6.5);
+position: absolute;
+left: 32px;
+bottom: 32px;
+cursor: pointer;
+opacity: 0;
+z-index: 2;
+
+}
+
+
+
+.menu-line-top, .menu-line-center, .menu-line-bottom{
+  width: 70px;
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 12px 0px 10px 2px;
+}
+
+
+#menu:checked ~.menu-line
+{
+  background-color: #45526c;
+
+}
+
+#menu:checked ~.menu-line-bottom{
+  transform: translate(0, -22px);
+  transition-duration: 1s;
+}
+
+#menu:checked ~.menu-line-top{
+  transform: translate(0, 22px);
+  transition-duration: 1s;
 }
 
 /* **************************Logo*********************************************/
@@ -234,13 +278,28 @@ margin: 10px;
   flex-direction: column;
   text-align: center;
 }
+ul{
+  visibility: hidden;
+}
 
 .skills{
   flex-direction: column;
 }
 
 .info-container{
-  width: 50vw;
+  width: 80vw;
 }
+
+}
+
+@media (min-width: 1028px) {
+
+  .menu-line-top, .menu-line-center, .menu-line-bottom{
+    visibility: hidden;
+  }
+  #menu{
+    cursor: unset;
+    visibility: hidden;
+  }
 
 }
