@@ -169,7 +169,7 @@ body {
   top: 75px;
   left: -200px;
   transform: translate(300px, 0);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   border-radius: 10px;
 }
 
@@ -288,17 +288,36 @@ body {
   border-radius: 10px;
 }
 
+
+
+
 .HTML span {
-  width: 80%
+  width: 80%;
+  animation: HTML 3s;
 }
 
 .CSS span {
-  width: 60%
+  width: 60%;
+  animation: CSS 3s;
 }
 
 .C span {
-  width: 30%
+  width: 30%;
+  animation: C 3s;
 }
+
+.boostrap span{
+  width: 50%;
+  animation: boostrap 3s;
+}
+
+.labview span{
+  width: 40%;
+  animation: labview 3s;
+}
+
+
+
 
 .HTML span::before{
 content: "80%";
@@ -321,17 +340,22 @@ right: -20px;
 top: -20px;
 }
 
-.HTML span{
- animation: HTML 3s;
+.boostrap span::before{
+content: "50%";
+position: absolute;
+right: -20px;
+top: -20px;
 }
 
-.CSS span{
- animation: CSS 3s;
+.labview span::before{
+content: "40%";
+position: absolute;
+right: -20px;
+top: -20px;
 }
 
-.C span{
- animation: C 3s;
-}
+
+
 
 @keyframes HTML {
   0%   {width:0%;}
@@ -346,6 +370,16 @@ top: -20px;
 @keyframes C {
   0%   {width:0%;}
  100%  {width:30%;}
+}
+
+@keyframes boostrap {
+  0%   {width:0%;}
+ 100%  {width:50%;}
+}
+
+@keyframes labview {
+  0%   {width:0%;}
+ 100%  {width:40%;}
 }
 
 
