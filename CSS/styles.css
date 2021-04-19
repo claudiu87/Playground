@@ -169,7 +169,7 @@ body {
   top: 75px;
   left: -200px;
   transform: translate(300px, 0);
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   border-radius: 10px;
 }
 
