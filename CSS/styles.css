@@ -518,10 +518,10 @@ margin: 30px;
 .hobby-img{
 margin: 0;
 /* aspect-ratio: 16 / 9; */
-width: 500px;
-height: 281.25px;
-/* width: 700px;
-height: 393.75px; */
+/*width: 500px;
+height: 281.25px;*/
+width: 700px;
+height: 393.75px;
 /* border: 1px solid black; */
 background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3fgczZiNkpkSX0PxTnXqoO5_wvU7clyJSwT-O5qUML9u7NMZl-2SN5nsGussC0wooDE5DOjwOv9DgQv894Hx8_ZW-_8nuwX1RNthYgujG7FMdbzwGr9fKVwQkBwVaXP33yAPszdUPKOwGsvDFnAvNz4=w2245-h1263-no?authuser=0");
 background-size: cover;
