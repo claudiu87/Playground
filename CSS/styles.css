@@ -508,10 +508,6 @@ flex-wrap: wrap;
 margin: 30px;
 }
 
-.hobby-img{
-  width: 40%;
-}
-
 .hobby-text{
   margin: 0;
   margin-bottom: 20px;
@@ -583,7 +579,7 @@ grid-template-columns: 20vw 60vw;
 
 .hobby-img{
 width: 700px;
-height: 393.75px;
+height: 400px;
 }
 
 /* .hobbies{
