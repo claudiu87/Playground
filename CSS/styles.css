@@ -497,16 +497,19 @@ display: flex;
 /* align-items: center; */
 justify-content: center;
 margin: auto;
+align-items: flex-start;
 /* border: 1px solid black; */
 width: 60vw;
 flex-direction: row;
 flex-wrap: wrap;
+
 }
 
 .hobby-div{
 /* border: 1px solid black; */
 margin: 30px;
 position: relative;
+
 }
 
 .hobby-text{
@@ -524,18 +527,16 @@ height: 281.25px;
 /* width: 700px;
 height: 393.75px; */
 /* border: 1px solid black; */
-  
-background-image: url("../img/testimg.jpg");  
-  
+background-image: url("../img/testimg.jpg");
 background-size: cover;
 border-radius: 20px;
-visibility: visible;
+/* visibility: visible; */
 }
 
 .hobby-checkbox{
   position: absolute;
   top: 7px;
-  left: 140px;
+  left: 150px;
   transform: scale(2);
   z-index: 1;
 }
@@ -544,6 +545,38 @@ visibility: visible;
   visibility: hidden;
   height: 0;
 }
+
+/* **************************contact-me********************************************/
+
+.contact-me-1{
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
+
+.fa-facebook-square{
+  position: fixed;
+  font-size: 4rem;
+  color: #5aa897;
+}
+
+.fa-twitter-square{
+  position: fixed;
+  margin-top: -70px;;
+  font-size: 4rem;
+  color: #5aa897;
+
+}
+
+.fab:hover{
+color: #45526c;
+font-size: 4.5rem;
+z-index:
+}
+
+
 
 /* **************************media********************************************/
 @media (max-width: 1028px) {
@@ -600,6 +633,21 @@ height: 400px;
 width: 80vw;
 
 }
+
+
+.fa-twitter-square{
+  margin-top: -100px;;
+
+}
+
+.fab:hover{
+color: #45526c;
+font-size: 7rem;
+z-index:
+}
+
+.fab{
+font-size: 6rem;}
 
 
 }
