@@ -532,7 +532,7 @@ border-radius: 20px;
 .hobby-checkbox{
   position: absolute;
   top: 7px;
-  right: 150px;
+  left: 150px;
   transform: scale(2);
   z-index: 1;
 }
