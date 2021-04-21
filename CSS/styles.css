@@ -535,7 +535,7 @@ visibility: visible;
 .hobby-checkbox{
   position: absolute;
   top: 7px;
-  left: 150px;
+  left: 140px;
   transform: scale(2);
   z-index: 1;
 }
