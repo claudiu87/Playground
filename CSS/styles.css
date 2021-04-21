@@ -633,7 +633,7 @@ position: relative;
   border-radius: 50%;
   bottom: 29px;
   left: 403px;
-  border: 1px dotted black;
+  border: 1px solid black;
   z-index: 3;
   opacity: 1;
 
