@@ -524,7 +524,9 @@ height: 281.25px;
 /* width: 700px;
 height: 393.75px; */
 /* border: 1px solid black; */
-background-image: url("https://photos.app.goo.gl/LhAKMVydG8Rutfv37");
+  
+background-image: url("../img/testimg.jpg");  
+  
 background-size: cover;
 border-radius: 20px;
 visibility: visible;
