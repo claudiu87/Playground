@@ -620,7 +620,7 @@ position: relative;
   border-radius: 50%;
   bottom: 25px;
   left: 400px;
-  border: 4.3px dotted #5aa897;
+  border: 1.5px dotted #5aa897;
   /* border: 1px solid black; */
 
 }
@@ -631,8 +631,8 @@ position: relative;
   background-color: white;
   position: absolute;
   border-radius: 50%;
-  bottom: 29px;
-  left: 403px;
+  bottom: 25.5px;
+  left: 400px;
   border: 1px solid black;
   z-index: 3;
   opacity: 1;
@@ -803,6 +803,19 @@ position: relative;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   text-align: center;
   animation: baa 2s infinite;
+
+}
+
+
+.tail{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+  right: -5px;
+  top:15px;
 
 }
 
