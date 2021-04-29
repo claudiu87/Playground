@@ -523,7 +523,7 @@ justify-content: center;
 margin: auto;
 align-items: flex-start;
 /* border: 1px solid black; */
-width: 60vw;
+width: 70vw;
 flex-direction: row;
 flex-wrap: wrap;
 
@@ -543,7 +543,7 @@ position: relative;
   text-align: center;
 }
 
-.hobby-img{
+.hobby-hiking{
 margin: 0;
 /* aspect-ratio: 16 / 9; */
 width: 500px;
@@ -551,11 +551,72 @@ height: 281.25px;
 /* width: 700px;
 height: 393.75px; */
 /* border: 1px solid black; */
-background-image: url("../img/testimg.jpg");
+background-image: url("../img/Hiking.jpg");
 background-size: cover;
-border-radius: 20px;
+border-radius: 35px;
 /* visibility: visible; */
 }
+
+.hobby-skiing{
+margin: 0;
+/* aspect-ratio: 16 / 9; */
+width: 500px;
+height: 281.25px;
+/* width: 700px;
+height: 393.75px; */
+/* border: 1px solid black; */
+background-image: url("../img/Skiing.jpg");
+background-size: cover;
+border-radius: 35px;
+/* visibility: visible; */
+}
+
+.hobby-Cycling{
+margin: 0;
+/* aspect-ratio: 16 / 9; */
+width: 500px;
+height: 281.25px;
+/* width: 700px;
+height: 393.75px; */
+/* border: 1px solid black; */
+background-image: url("../img/Cycling.jpg");
+background-size: cover;
+border-radius: 35px;
+/* visibility: visible; */
+}
+
+.hobby-woodworking{
+margin: 0;
+/* aspect-ratio: 16 / 9; */
+width: 500px;
+height: 281.25px;
+/* width: 700px;
+height: 393.75px; */
+/* border: 1px solid black; */
+background-image: url("../img/woodworking.jpg");
+background-size: cover;
+border-radius: 35px;
+/* visibility: visible; */
+}
+
+
+.hobby-embedded{
+margin: 0;
+/* aspect-ratio: 16 / 9; */
+width: 500px;
+height: 281.25px;
+/* width: 700px;
+height: 393.75px; */
+/* border: 1px solid black; */
+background-image: url("../img/embedded.jpg");
+background-size: cover;
+border-radius: 35px;
+/* visibility: visible; */
+}
+
+
+
+
 
 .hobby-checkbox{
   position: absolute;
@@ -565,7 +626,7 @@ border-radius: 20px;
   z-index: 1;
 }
 
-.hobby-checkbox:checked~.hobby-img{
+.hobby-checkbox:checked~.hobby{
   visibility: hidden;
   height: 0;
 }
@@ -577,7 +638,7 @@ border-radius: 20px;
   height: 1px;
   position: absolute;
   left: 0;
-  top: 400px;
+  top: 300px;
 }
 
 .fa-facebook-square{
@@ -586,7 +647,7 @@ border-radius: 20px;
   color: #5aa897;
 }
 
-.fa-twitter-square{
+.fa-instagram-square{
   position: fixed;
   margin-top: -70px;;
   font-size: 4rem;
@@ -865,7 +926,7 @@ position: relative;
 grid-template-columns: 20vw 60vw;
 }
 
-.hobby-img{
+.hobby{
 width: 700px;
 height: 400px;
 }
@@ -876,8 +937,8 @@ width: 80vw;
 }
 
 
-.fa-twitter-square{
-  margin-top: -100px;;
+.fa-instagram-square{
+  margin-top: 100px;;
 
 }
 
