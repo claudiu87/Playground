@@ -70,7 +70,7 @@ body {
 .top-section-grid {
   position: fixed;
   display: grid;
-  grid-template-columns: 50px 50px 100px 50px auto 100px;
+  grid-template-columns: 50px 50px 100px 50px auto 30px;
   width: 100vw;
   background-color: #5aa897;
   /* border: 1px solid black; */
@@ -950,6 +950,13 @@ z-index:
 
 .fab{
 font-size: 6rem;}
+
+.top-section-grid {
+
+  grid-template-columns: 50px 50px 100px 50px auto 100px;
+
+}
+
 
 
 }
